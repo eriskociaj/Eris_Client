@@ -24,7 +24,7 @@ public class Client {
         ) {
             String userInput;
             // Prompt the user to enter math expressions to send to the server
-            System.out.println("Connected to the server. Type your math expressions (e.g., '1 + 2') to send:");
+            System.out.println("\n\nConnected to the server. Type your math expressions bellow (e.g., '1 + 2') to send. \nYou are allowed to do addition, subtraction, multiplication and division.");
             while (true) {
                 System.out.print("Enter expression (or 'quit' to exit): ");
                 userInput = scanner.nextLine(); 
